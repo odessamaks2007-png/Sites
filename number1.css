@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 40px;
+}
+
+/* Светло-розовый фон у всего контейнера списка */
+.fruits-container {
+    background-color: #e8a6b3;
+    padding: 30px;
+    max-width: 550px;
+    border-radius: 2px;
+}
+
+/* Убираем стандартные маркеры списка */
+.fruits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Более темный фон у элементов списка (<li>) */
+.fruits-list li {
+    background-color: #be5b72;
+    color: #ffffff;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+}
+
+/* Номер пункта */
+.fruit-num {
+    font-weight: bold;
+    min-width: 30px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+/* Самый темный фон ТОЛЬКО под текстом (занимает ровно ширину слова) */
+.fruit-text {
+    background-color: #8b3248;
+    padding: 8px 25px;
+    display: inline-block;
+    border-radius: 2px;
+}
